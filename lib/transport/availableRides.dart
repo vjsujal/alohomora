@@ -1,3 +1,4 @@
+import 'package:alohomora/transport/booked.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -8,7 +9,7 @@ class AvailableRides extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: widget(
+      body: SingleChildScrollView(
         child: Container(
           color: Colors.black,
           child: Column(
@@ -61,7 +62,53 @@ class AvailableRides extends StatelessWidget {
                     SizedBox(
                       height: 30,
                     ),
-                    Image.asset("assets/car1.png")
+                    GestureDetector(
+                      onTap: () {
+                        Navigator.push(context,
+                            MaterialPageRoute(builder: (context) => Booked()));
+                      },
+                      child: Image.asset("assets/car2.png"),
+                    ),
+                    SizedBox(
+                      height: 30,
+                    ),
+                    GestureDetector(
+                      onTap: () {
+                        Navigator.push(context,
+                            MaterialPageRoute(builder: (context) => Booked()));
+                      },
+                      child: Image.asset("assets/car3.png"),
+                    ),
+                    SizedBox(
+                      height: 30,
+                    ),
+                    GestureDetector(
+                      onTap: () {
+                        Navigator.push(context,
+                            MaterialPageRoute(builder: (context) => Booked()));
+                      },
+                      child: Image.asset("assets/car4.png"),
+                    ),
+                    SizedBox(
+                      height: 30,
+                    ),
+                    GestureDetector(
+                      onTap: () {
+                        Navigator.push(context,
+                            MaterialPageRoute(builder: (context) => Booked()));
+                      },
+                      child: Image.asset("assets/car5.png"),
+                    ),
+                    SizedBox(
+                      height: 30,
+                    ),
+                    GestureDetector(
+                      onTap: () {
+                        Navigator.push(context,
+                            MaterialPageRoute(builder: (context) => Booked()));
+                      },
+                      child: Image.asset("assets/car2.png"),
+                    ),
                   ],
                 ),
               )

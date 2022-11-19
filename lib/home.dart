@@ -1,3 +1,4 @@
+import 'package:alohomora/reselling/reselling.dart';
 import 'package:alohomora/transport_pooling.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -72,7 +73,14 @@ class MyApp extends StatelessWidget {
                     SizedBox(
                       height: 20,
                     ),
-                    Image.asset("assets/h12.png"),
+                    GestureDetector(
+                        onTap: () {
+                          Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                  builder: (context) => ResellingThings()));
+                        },
+                        child: Image.asset("assets/h12.png")),
                     SizedBox(
                       height: 20,
                     ),

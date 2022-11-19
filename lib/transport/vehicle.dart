@@ -1,4 +1,4 @@
-import 'package:alohomora/transport/booked.dart';
+import 'package:alohomora/transport/PublishRide.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -154,7 +154,7 @@ class VehicleDetails extends StatelessWidget {
                 GestureDetector(
                   onTap: () {
                     Navigator.push(context,
-                        MaterialPageRoute(builder: (context) => Booked()));
+                        MaterialPageRoute(builder: (context) => PublishRide()));
                   },
                   child: Image.asset('assets/next.png'),
                 )

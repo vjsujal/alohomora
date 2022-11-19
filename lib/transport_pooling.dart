@@ -25,10 +25,15 @@ class _Transport_PoolingState extends State<Transport_Pooling> {
               SizedBox(
                 width: 20,
               ),
-              Icon(
-                Icons.arrow_back,
-                color: Colors.white,
-                size: 30,
+              GestureDetector(
+                onTap: () {
+                  Navigator.pop(context);
+                },
+                child: Icon(
+                  Icons.arrow_back,
+                  color: Colors.white,
+                  size: 30,
+                ),
               ),
               SizedBox(
                 width: 20,
