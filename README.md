@@ -50,10 +50,10 @@ Solution:
 Product name : Conets
 
 Screenshots of APP
+![image](https://user-images.githubusercontent.com/76482758/202825490-2fd2bf61-6afa-4759-9661-8fe8ee9b8fcb.png)
+![image](https://user-images.githubusercontent.com/76482758/202825505-091448c1-415e-4a96-a2ac-9cbf0a7b7554.png)
+![image](https://user-images.githubusercontent.com/76482758/202825536-043a90a7-7701-4d44-a42d-3303f89dc426.png)
 
-![Vectary texture (1)](https://user-images.githubusercontent.com/76482758/202824938-7adc24fb-2139-4bd3-bf9a-02f2f2ecb170.png)
-![Vectary texture](https://user-images.githubusercontent.com/76482758/202824939-5f5d2153-4e96-41f8-b214-2ec467a63e8f.png)
-![Vectary texture (2)](https://user-images.githubusercontent.com/76482758/202824940-92b2de14-4a44-4135-a9e4-0cd5521b9185.png)
 
 
 
@@ -61,5 +61,3 @@ We have create a app named "Conets", which we designed in such a way that it sol
 Conets - Connect-Students
 
 This app is used to connect people in the college, which it develops the social networking!.
-
-![image](https://user-images.githubusercontent.com/88235149/202823250-0f50c1e4-f1fb-4d03-93ad-57eba24c75c8.png)
